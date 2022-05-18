@@ -17,7 +17,13 @@ async function viewAllRoles() {
               AS department, roles.salary 
               FROM roles LEFT JOIN department 
               ON roles.department_id = department.id`;
-  promise(sql);
+  await db
+    .promise()
+    .query(sql)
+    .then(([rows, fields]) => {
+      console.table(rows);
+    });
+  await initialize();
 }
 
 async function viewAllEmployee() {
@@ -29,20 +35,26 @@ async function viewAllEmployee() {
     LEFT JOIN department ON roles.department_id = department.id
     LEFT JOIN employee a ON a.id = b.manager_id;`;
 
-  // await db
-  //   .promise()
-  //   .query(sql)
-  //   .then(([rows, fields]) => {
-  //     console.table(rows);
-  //   });
-  // await initialize();
-  promise(sql);
+  await db
+    .promise()
+    .query(sql)
+    .then(([rows, fields]) => {
+      console.table(rows);
+    });
+  await initialize();
+  // promise(sql);
 }
 
 async function viewAllDepartments() {
   const sql = `SELECT * FROM department`;
 
-  promise(sql);
+  await db
+    .promise()
+    .query(sql)
+    .then(([rows, fields]) => {
+      console.table(rows);
+    });
+  await initialize();
 }
 
 async function initialize() {
@@ -71,7 +83,7 @@ async function initialize() {
         viewAllDepartments();
       }
     });
-  await initialize();
+  // await initialize();
 }
 
 initialize();
