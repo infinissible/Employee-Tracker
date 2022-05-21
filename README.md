@@ -21,4 +21,4 @@ https://github.com/infinissible/Ch12-Employee-Tracker
 <img src="./assets/video.gif" alt="" />
 
 Full video link
-https://drive.google.com/file/d/11_h8TcROGIYwCUf6t8jW3dfCdmlCIbJP/view
+https://drive.google.com/file/d/1B5RXq7UdRP0h4CshMRpVlKyEyKSDS_9h/view
