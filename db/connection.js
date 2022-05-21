@@ -10,11 +10,4 @@ const db = mysql.createConnection(
   console.log('Connected to DB')
 );
 
-// db.promise().query("SELECT 1")
-//     .then( ([rows, fields]) => {
-//         console.log(rows);
-//     })
-//     .catch(console.log)
-//     .then( () => con.end());
-
 module.exports = db;
