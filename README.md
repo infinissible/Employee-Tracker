@@ -1,6 +1,6 @@
 # Employee-Tracker
 
-## Purpose
+## Description
 
 A command-line application that allows to view and manage the departments, roles, and employees in a company, using Node.js, Inquirer, and MySQL. The application offers following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role. In addition, it is able to view the total utilized budged of a department, which is the combined salaries of all employees in that department. 
 
@@ -37,3 +37,12 @@ https://github.com/infinissible/Ch12-Employee-Tracker
 
 Full video link
 https://drive.google.com/file/d/1B5RXq7UdRP0h4CshMRpVlKyEyKSDS_9h/view
+
+## Questions
+
+Find me on GitHub
+infinissible
+repo: https://github.com/infinissible
+
+Email me with any questions
+infinissible@gmail.com
