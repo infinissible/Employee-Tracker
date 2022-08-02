@@ -1,4 +1,4 @@
-# Ch12-Employee-Tracker
+# Employee-Tracker
 
 ## Purpose
 
