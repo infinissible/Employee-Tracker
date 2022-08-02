@@ -12,6 +12,21 @@ A command-line application that allows to view and manage the departments, roles
 - Inquirer
 - Console.table
 
+
+## Installation
+
+`npm install --save mysql2`
+
+`npm install inquirer`
+
+`npm install console.table --save`
+
+
+## Usage
+
+`npm start`
+
+
 ## GitHub repository
 
 https://github.com/infinissible/Ch12-Employee-Tracker
