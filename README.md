@@ -2,7 +2,7 @@
 
 ## Description
 
-A command-line application that allows to view and manage the departments, roles, and employees in a company, using Node.js, Inquirer, and MySQL. The application offers following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role. In addition, it is able to view the total utilized budged of a department, which is the combined salaries of all employees in that department. 
+A command-line application to easily view and interact with information stored using Node.js, Inquirer, and MySQL in databases for non-developers. The application offers following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role. In addition, it is able to view the total utilized budged of a department, which is the combined salaries of all employees in that department. 
 
 ## Built with
 
